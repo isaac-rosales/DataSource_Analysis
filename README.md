@@ -66,7 +66,3 @@ El script embebido en Python:
 
 - Asegúrese de tener permisos de acceso a los espacios de trabajo.
 - Este informe está destinado para uso interno del equipo de datos y gobernanza.
-
-## 📄 Licencia
-
-Este proyecto es propietario y está destinado para uso interno dentro de la organización. Contacte al equipo de datos para acceso o colaboración.
