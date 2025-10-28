@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.3.0/schema.json",
+  "name": "b2c4982d78cd79e19557",
+  "position": {
+    "x": 0,
+    "y": 0,
+    "z": 500,
+    "height": 62.525764869317996,
+    "width": 44.661260620941427
+  },
+  "visual": {
+    "visualType": "image",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "imageUrl": {
+              "expr": {
+                "ResourcePackageItem": {
+                  "PackageName": "RegisteredResources",
+                  "PackageType": 1,
+                  "ItemName": "chart-pie3897999619745163.png"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "parentGroupName": "7fcfb69b5875ebf0e30b",
+  "howCreated": "InsertVisualButton"
+}

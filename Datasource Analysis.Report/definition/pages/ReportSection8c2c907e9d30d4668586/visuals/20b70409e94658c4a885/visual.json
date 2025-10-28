@@ -1,0 +1,64 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.3.0/schema.json",
+  "name": "20b70409e94658c4a885",
+  "position": {
+    "x": 309.65140694502696,
+    "y": 11.177540251592928,
+    "z": 4000,
+    "height": 57.3152844635415,
+    "width": 298.48609181662522,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "slicer",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Datasources"
+                    }
+                  },
+                  "Property": "Report"
+                }
+              },
+              "queryRef": "Datasources.Report",
+              "nativeQueryRef": "Report",
+              "active": true,
+              "displayName": "Report"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "isDefaultSort": true
+      }
+    },
+    "objects": {
+      "data": [
+        {
+          "properties": {
+            "mode": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Dropdown'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "syncGroup": {
+      "groupName": "Discounts",
+      "fieldChanges": true,
+      "filterChanges": true
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "parentGroupName": "c0752f8d07bad745eecb"
+}

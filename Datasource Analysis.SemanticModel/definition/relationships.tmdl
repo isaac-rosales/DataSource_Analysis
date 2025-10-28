@@ -1,0 +1,10 @@
+relationship f27a6a33-70b8-43a8-a1c9-e5c15a7cc70e
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Datasources.ModifiedTime
+	toColumn: LocalDateTable_216d5727-d259-497d-859b-1534108f6ace.Date
+
+relationship cfe931bb-954e-4943-8207-315e94e41f49
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Datasources.RefreshedTime
+	toColumn: LocalDateTable_d5da63db-854d-4f00-ade7-78ac68fcb16e.Date
+

@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.3.0/schema.json",
+  "name": "2fae4db0da0513b95a0c",
+  "position": {
+    "x": 0,
+    "y": 22.646286217092804,
+    "z": 1000,
+    "height": 36.800215102775809,
+    "width": 1024.9715938376555,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Este documento se conecta a los workspaces de DEV y lista los reportes publicados asi como las fuentes de datos a los que se encuentran conectados."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "parentGroupName": "e0b3d61dce70c5f635ad"
+}

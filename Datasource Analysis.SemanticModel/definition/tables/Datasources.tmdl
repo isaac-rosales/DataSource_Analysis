@@ -1,0 +1,165 @@
+table Datasources
+	lineageTag: f35c5f69-153c-4502-ac92-f196eaadee91
+
+	column Workspace
+		dataType: string
+		lineageTag: b2898502-07c9-4fc5-9f3b-e7ff47dc9dd8
+		summarizeBy: none
+		sourceColumn: Workspace
+
+		annotation SummarizationSetBy = Automatic
+
+	column Report
+		dataType: string
+		lineageTag: 59f7d330-616c-4a52-8a19-977371b10243
+		summarizeBy: none
+		sourceColumn: Report
+
+		annotation SummarizationSetBy = Automatic
+
+	column ID
+		dataType: int64
+		formatString: 0
+		lineageTag: 5255c094-44f7-465d-ac62-1b86022065d6
+		summarizeBy: count
+		sourceColumn: ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column TableID
+		dataType: int64
+		formatString: 0
+		lineageTag: 5998f16c-1812-42a1-a601-da7bfe578b55
+		summarizeBy: count
+		sourceColumn: TableID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Name
+		dataType: string
+		lineageTag: e936db23-f6fe-4be0-a10a-f5a287d14556
+		summarizeBy: none
+		sourceColumn: Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column QueryDefinition
+		dataType: string
+		lineageTag: 548da738-c89a-4d31-9f87-67fe169ceb1e
+		summarizeBy: none
+		sourceColumn: QueryDefinition
+
+		annotation SummarizationSetBy = Automatic
+
+	column Type
+		dataType: int64
+		formatString: 0
+		lineageTag: 43c8046c-f3ee-468b-9543-ce24fbc89c00
+		summarizeBy: sum
+		sourceColumn: Type
+
+		annotation SummarizationSetBy = Automatic
+
+	column PartitionStorageID
+		dataType: int64
+		formatString: 0
+		lineageTag: 89093f1e-80ea-436d-af87-a8c9d5fd46e1
+		summarizeBy: count
+		sourceColumn: PartitionStorageID
+
+		annotation SummarizationSetBy = Automatic
+
+	column ModifiedTime
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 3bd4ed36-c39d-478c-ae85-f4b5859792e8
+		summarizeBy: none
+		sourceColumn: ModifiedTime
+
+		variation Variation
+			isDefault
+			relationship: f27a6a33-70b8-43a8-a1c9-e5c15a7cc70e
+			defaultHierarchy: LocalDateTable_216d5727-d259-497d-859b-1534108f6ace.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	column RefreshedTime
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 24de3f64-9435-4101-bc6e-ca30b83a4fbb
+		summarizeBy: none
+		sourceColumn: RefreshedTime
+
+		variation Variation
+			isDefault
+			relationship: cfe931bb-954e-4943-8207-315e94e41f49
+			defaultHierarchy: LocalDateTable_d5da63db-854d-4f00-ade7-78ac68fcb16e.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	column SystemFlags
+		dataType: int64
+		formatString: 0
+		lineageTag: 34d6de08-d1be-4525-b87d-53217efd266c
+		summarizeBy: sum
+		sourceColumn: SystemFlags
+
+		annotation SummarizationSetBy = Automatic
+
+	column ErrorMessage
+		dataType: string
+		lineageTag: 37e23ad8-9b46-425b-9d9c-22bcb42acfe8
+		summarizeBy: none
+		sourceColumn: ErrorMessage
+
+		annotation SummarizationSetBy = Automatic
+
+	column DataSourceType
+		dataType: string
+		lineageTag: 7226322e-ced0-445e-bbd3-6cc69b2fbb36
+		summarizeBy: none
+		sourceColumn: DataSourceType
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Datasources = m
+		mode: import
+		source = ```
+				let
+				    //URLs de Workspaces
+				    //Power BI Service > Workspaces > Settings > Licence information > URL
+    			    Source = {"powerbi://api.powerbi.com/v1.0/myorg/WORKSPACE1", "WORKSPACE2", "ETC..."},
+				    #"Converted to Table" = Table.FromList(Source, Splitter.SplitByNothing(), null, null, ExtraValues.Error),
+				    #"Renamed Columns" = Table.RenameColumns(#"Converted to Table",{{"Column1", "Endpoint"}}),
+				    
+				    //Obtener reportes de cada workspace
+				    #"Added Custom" = Table.AddColumn(#"Renamed Columns", "DS_Connection", each let
+				    Source = AnalysisServices.Database([Endpoint], "", [Query="SELECT [CATALOG_NAME] FROM $SYSTEM.DBSCHEMA_CATALOGS"]),
+				    Datasets = Table.RenameColumns(Source, {{"CATALOG_NAME", "Dataset"}}),
+				
+				    //Obtener metadatos de cada reporte
+				    #"Added Custom" = Table.AddColumn(Datasets, "Data", each AnalysisServices.Database([Dataset], [Dataset], [Query="SELECT * FROM $SYSTEM.TMSCHEMA_PARTITIONS", Implementation="2.0"])) in Source),
+				    #"Expanded DS_Connection" = Table.ExpandTableColumn(#"Added Custom", "DS_Connection", {"CATALOG_NAME"}, {"CATALOG_NAME"}),
+				    #"Added Custom1" = Table.AddColumn(#"Expanded DS_Connection", "Partitions", each AnalysisServices.Database([Endpoint], [CATALOG_NAME], [Query="SELECT * FROM $SYSTEM.TMSCHEMA_PARTITIONS", Implementation="2.0"])),
+				    #"Expanded Partitions" = Table.ExpandTableColumn(#"Added Custom1", "Partitions", {"ID", "TableID", "Name", "Description", "DataSourceID", "QueryDefinition", "State", "Type", "PartitionStorageID", "Mode", "DataView", "ModifiedTime", "RefreshedTime", "SystemFlags", "ErrorMessage", "RetainDataTillForceCalculate", "RangeStart", "RangeEnd", "RangeGranularity", "RefreshBookmark", "QueryGroupID", "ExpressionSourceID", "MAttributes"}, {"ID", "TableID", "Name", "Description", "DataSourceID", "QueryDefinition", "State", "Type", "PartitionStorageID", "Mode", "DataView", "ModifiedTime", "RefreshedTime", "SystemFlags", "ErrorMessage", "RetainDataTillForceCalculate", "RangeStart", "RangeEnd", "RangeGranularity", "RefreshBookmark", "QueryGroupID", "ExpressionSourceID", "MAttributes"}),
+				    #"Removed Columns" = Table.RemoveColumns(#"Expanded Partitions",{"Description", "DataSourceID", "State", "DataView", "Mode", "RetainDataTillForceCalculate", "RangeStart", "RangeEnd", "RangeGranularity", "RefreshBookmark", "QueryGroupID", "ExpressionSourceID", "MAttributes"}),
+				    #"Renamed Columns1" = Table.RenameColumns(#"Removed Columns",{{"Endpoint", "Workspace"}, {"CATALOG_NAME", "Report"}}),
+				
+				    //Identificar tipo de fuente de datos
+				    #"Run Python script" = Python.Execute("import pandas as pd#(lf)import re#(lf)import numpy as np#(lf)import json#(lf)#(lf)# Copy incoming Power Query dataset#(lf)df = dataset.copy()#(lf)#(lf)# Clean up special M sequences & control chars#(lf)def normalize_script(txt: str) -> str:#(lf)    if not isinstance(txt, str):#(lf)        return """"#(lf)    txt = txt.replace(""#(#)(lf)"", "" "").replace(""#(#)(cr)"", "" "").replace(""#(#)(tab)"", "" "")#(lf)    txt = txt.replace(""\r"", "" "").replace(""\n"", "" "").replace(""\t"", "" "")#(lf)    txt = txt.replace(""\ufeff"", """").replace(""\u200b"", """")#(lf)    txt = re.sub(r""\s{2,}"", "" "", txt)#(lf)    return txt.strip()#(lf)#(lf)df[""_CleanDef""] = df[""QueryDefinition""].fillna("""").apply(normalize_script)#(lf)#(lf)# Detect connection-based and expression-based data sources#(lf)def detect_data_source(qd: str) -> str:#(lf)    q = qd.strip()#(lf)    if not q:#(lf)        return ""Empty""#(lf)#(lf)    # Connection-based#(lf)    if re.search(r""Sql\.Database"", q, re.IGNORECASE):#(lf)        return ""SQL""#(lf)    if re.search(r""Oracle\.Database"", q, re.IGNORECASE):#(lf)        return ""Oracle""#(lf)    if re.search(r""(Kusto|Kql|AzureDataExplorer)"", q, re.IGNORECASE):#(lf)        return ""KQL""#(lf)    if re.search(r""(AnalysisServices|MDX)"", q, re.IGNORECASE):#(lf)        return ""MDX""#(lf)    if re.search(r""VSTS\.AnalyticsViews"", q, re.IGNORECASE):#(lf)        return ""VSTS.Analytics""#(lf)    if re.search(r""Table\.FromRows"", q, re.IGNORECASE):#(lf)        return ""Table.FromRows""#(lf)    if re.search(r""SharePoint\.Tables"", q, re.IGNORECASE):#(lf)        return ""SharePoint.Tables""#(lf)#(lf)    # DAX expressions#(lf)    if re.match(r""^\s*(VAR|EVALUATE|SUMMARIZE|GENERATESERIES|ADDCOLUMNS|SELECTCOLUMNS|FILTER|UNION)\b"", q, re.IGNORECASE):#(lf)        return ""DAX.Expression""#(lf)    if re.search(r""\bRETURN\b"", q, re.IGNORECASE):#(lf)        return ""DAX.Expression""#(lf)    if re.search(r""'\w+'\s*\[\w+\]"", q):  # DAX column reference pattern#(lf)        return ""DAX.Expression""#(lf)#(lf)    # List expressions#(lf)    if re.match(r""^\s*\{"", q) and re.search(r""NAMEOF\s*\("", q, re.IGNORECASE):#(lf)        return ""List.Expression""#(lf)#(lf)    # Hardcoded JSON or lists#(lf)    if re.match(r""^\s*[\{\[]"", q):#(lf)        try:#(lf)            json.loads(q)#(lf)            return ""Hardcoded.JSON""#(lf)        except Exception:#(lf)            if re.search(r"":\s*['\""]"", q):#(lf)                return ""Hardcoded.JSON""#(lf)            return ""Hardcoded.List""#(lf)#(lf)    # Hardcoded text#(lf)    if re.match(r'^\s*[""\'].*[""\']\s*$', q):#(lf)        return ""Hardcoded.Text""#(lf)#(lf)    return ""Unknown""#(lf)#(lf)#(lf)df[""DataSourceType""] = df[""_CleanDef""].apply(detect_data_source)#(lf)#(lf)# Output: keep all original columns + detected type#(lf)dataset = df.drop(columns=[""_CleanDef""])#(lf)dataset#(lf)",[dataset=#"Renamed Columns1"]),
+				    dataset = #"Run Python script"{[Name="dataset"]}[Value],
+				    #"Changed Type" = Table.TransformColumnTypes(dataset,{{"Workspace", type text}, {"Report", type text}, {"ID", Int64.Type}, {"TableID", Int64.Type}, {"Name", type text}, {"QueryDefinition", type text}, {"Type", Int64.Type}, {"PartitionStorageID", Int64.Type}, {"ModifiedTime", type datetime}, {"RefreshedTime", type datetime}, {"SystemFlags", Int64.Type}, {"ErrorMessage", type text}, {"DataSourceType", type text}}),
+				    
+				    //Formato
+				    #"Replaced Value" = Table.ReplaceValue(#"Changed Type","powerbi://api.powerbi.com/v1.0/myorg/","",Replacer.ReplaceText,{"Workspace"}),
+				    #"Replaced Value1" = Table.ReplaceValue(#"Replaced Value","%20"," ",Replacer.ReplaceText,{"Workspace"}),
+				    #"Replaced Value2" = Table.ReplaceValue(#"Replaced Value1","%5B","[",Replacer.ReplaceText,{"Workspace"}),
+				    #"Replaced Value3" = Table.ReplaceValue(#"Replaced Value2","%5D","]",Replacer.ReplaceText,{"Workspace"})
+				in
+				    #"Replaced Value3"
+				```
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

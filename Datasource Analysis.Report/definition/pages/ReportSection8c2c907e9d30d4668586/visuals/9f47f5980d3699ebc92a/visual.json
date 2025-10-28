@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.3.0/schema.json",
+  "name": "9f47f5980d3699ebc92a",
+  "position": {
+    "x": 159.57100561229026,
+    "y": 167.15424244697576,
+    "z": 3000,
+    "height": 295.17819706498949,
+    "width": 938.26784374819681
+  },
+  "visualGroup": {
+    "displayName": "filtros informe",
+    "groupMode": "ScaleMode"
+  },
+  "parentGroupName": "02006d5b640a245b93cf"
+}

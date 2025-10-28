@@ -1,0 +1,1048 @@
+{
+  "name": "Theme - lightTec",
+  "dataColors": [
+    "#0039A6",
+    "#1D4ED8",
+    "#2563EB",
+    "#3B82F6",
+    "#60A5FA",
+    "#93C5FD",
+    "#9CA3AF",
+    "#E5E7EB",
+    "#3599B8",
+    "#DFBFBF",
+    "#4AC5BB",
+    "#5F6B6D",
+    "#FB8281",
+    "#F4D25A",
+    "#7F898A",
+    "#A4DDEE",
+    "#FDAB89",
+    "#B687AC",
+    "#28738A",
+    "#A78F8F",
+    "#168980",
+    "#293537",
+    "#BB4A4A",
+    "#B59525",
+    "#475052",
+    "#6A9FB0",
+    "#BD7150",
+    "#7B4F71",
+    "#1B4D5C",
+    "#706060",
+    "#0F5C55",
+    "#1C2325",
+    "#7D3231",
+    "#796419",
+    "#303637",
+    "#476A75",
+    "#7E4B36",
+    "#52354C",
+    "#0D262E",
+    "#544848",
+    "#016AB8",
+    "#373D49",
+    "#FDB15D",
+    "#AAF20F",
+    "#5F646D",
+    "#8AA3EB",
+    "#FEE266",
+    "#A6687A",
+    "#3557B8",
+    "#DFCFBF",
+    "#4A91C5",
+    "#5F646D",
+    "#FBBF81",
+    "#C9F459",
+    "#7F838A",
+    "#A4B8EE",
+    "#FDE489",
+    "#B68794",
+    "#28428A",
+    "#A79B8F",
+    "#165889",
+    "#292E37",
+    "#BB824A",
+    "#8DB525",
+    "#474A52",
+    "#6A7CB0",
+    "#BDA750",
+    "#7B4F5A",
+    "#1B2C5C",
+    "#706860",
+    "#0F3C5C",
+    "#1C1E25",
+    "#7D5731",
+    "#5D7918",
+    "#303237",
+    "#475375",
+    "#7E6F36",
+    "#52343D",
+    "#0D152E",
+    "#544E48",
+    "#010EB8",
+    "#393749",
+    "#F9FD5D",
+    "#38F20F",
+    "#615F6D",
+    "#A08AEB",
+    "#CEFE66",
+    "#A67668",
+    "#5435B8",
+    "#DFDFBF",
+    "#4A53C5",
+    "#615F6D",
+    "#FAFB81",
+    "#7CF459",
+    "#807F8A",
+    "#B5A4EE",
+    "#DBFD89",
+    "#B69087",
+    "#3F288A",
+    "#A7A78F",
+    "#161F89",
+    "#2A2937",
+    "#BBBB4A",
+    "#45B525",
+    "#494752",
+    "#7A6AB0",
+    "#9CBD50",
+    "#7B594F",
+    "#291B5C",
+    "#707060",
+    "#0F155C",
+    "#1E1C25",
+    "#7C7D31",
+    "#2D7918",
+    "#303037",
+    "#514775",
+    "#697E36",
+    "#523B34",
+    "#140D2E",
+    "#545448",
+    "#4E01B8",
+    "#423749",
+    "#A9FD5D",
+    "#0FF256",
+    "#675F6D",
+    "#D18AEB",
+    "#82FE66",
+    "#A69468",
+    "#9535B8",
+    "#CFDFBF",
+    "#7D4AC5",
+    "#675F6D",
+    "#BCFB81",
+    "#59F484",
+    "#857F8A",
+    "#DAA4EE",
+    "#A1FD89",
+    "#B6A887",
+    "#6F288A",
+    "#9BA78F",
+    "#461689",
+    "#322937",
+    "#82BB4A",
+    "#25B54C",
+    "#4E4752",
+    "#9E6AB0",
+    "#65BD50",
+    "#7B6E4F",
+    "#4A1B5C",
+    "#687060",
+    "#2E0F5C",
+    "#221C25",
+    "#567D31",
+    "#187934",
+    "#343037",
+    "#684775",
+    "#457E36",
+    "#524934",
+    "#250D2E",
+    "#4E5448",
+    "#AA01B8",
+    "#493746",
+    "#5DFD62",
+    "#0FF2C7",
+    "#6D5F6B",
+    "#EB8AD3",
+    "#66FE96",
+    "#99A668",
+    "#B83598",
+    "#BFDFBF",
+    "#BA4AC5",
+    "#6D5F6B",
+    "#81FB82",
+    "#59F4D1",
+    "#8A7F89",
+    "#EEA4DD",
+    "#89FDAA",
+    "#ACB687",
+    "#8A2873",
+    "#8FA78F",
+    "#801689",
+    "#372934",
+    "#4ABB4A",
+    "#25B594",
+    "#524750",
+    "#B06A9F",
+    "#50BD70",
+    "#717B4F",
+    "#5C1B4D",
+    "#607060",
+    "#540F5C",
+    "#251C22",
+    "#317D32",
+    "#187964",
+    "#373036",
+    "#75476A",
+    "#367E4A",
+    "#4C5234",
+    "#2E0D26",
+    "#485448",
+    "#B8016A",
+    "#49373D",
+    "#5DFDB1",
+    "#0FAAF2",
+    "#6D5F64",
+    "#EB8AA3",
+    "#66FEE2",
+    "#7AA668",
+    "#B83557",
+    "#BFDFCF",
+    "#C54A91",
+    "#6D5F64",
+    "#81FBBF",
+    "#59C9F4",
+    "#8A7F83",
+    "#EEA4B8",
+    "#89FDE5",
+    "#94B687",
+    "#8A2842",
+    "#8FA79B",
+    "#891658",
+    "#37292E",
+    "#4ABB82",
+    "#258DB5",
+    "#52474A",
+    "#B06A7C",
+    "#50BDA7",
+    "#5B7B4F",
+    "#5C1B2C",
+    "#607068",
+    "#5C0F3C",
+    "#251C1E",
+    "#317D58",
+    "#185D79",
+    "#373032",
+    "#754752",
+    "#367E6F",
+    "#3D5234",
+    "#2E0D15",
+    "#48544E",
+    "#B8010E",
+    "#493937",
+    "#5DF9FD",
+    "#0F38F2",
+    "#6D615F",
+    "#EBA08A",
+    "#66CEFE",
+    "#68A676",
+    "#B85435",
+    "#BFDFDF",
+    "#C54A53",
+    "#6D615F",
+    "#81FAFB",
+    "#597CF4",
+    "#8A807F",
+    "#EEB5A4",
+    "#89DBFD",
+    "#87B691",
+    "#8A3F28",
+    "#8FA7A7",
+    "#89161E",
+    "#372A29",
+    "#4ABBBB",
+    "#2545B5",
+    "#524947",
+    "#B07A6A",
+    "#509CBD",
+    "#4F7B58",
+    "#5C291B",
+    "#607070",
+    "#5C0F15",
+    "#251E1C",
+    "#317C7D",
+    "#182D79",
+    "#373030",
+    "#755147",
+    "#36687E",
+    "#34523B",
+    "#2E140D",
+    "#485454",
+    "#B84E01",
+    "#494337",
+    "#5DA9FD",
+    "#560FF2",
+    "#6D685F",
+    "#EBD18A",
+    "#6681FE",
+    "#68A694",
+    "#B89535",
+    "#BFCFDF",
+    "#C57D4A",
+    "#6D685F",
+    "#81BCFB",
+    "#8459F4",
+    "#8A857F",
+    "#EEDAA4",
+    "#89A1FD",
+    "#87B6A8",
+    "#8A7028",
+    "#8F9BA7",
+    "#894616",
+    "#373229",
+    "#4A82BB",
+    "#4D25B5",
+    "#524E47",
+    "#B09E6A",
+    "#5065BD",
+    "#4F7B6F",
+    "#5C4A1B",
+    "#606870",
+    "#5C2E0F",
+    "#25221C",
+    "#31567D",
+    "#341879",
+    "#373430",
+    "#756947",
+    "#36447E",
+    "#345249",
+    "#2E250D",
+    "#484E54",
+    "#B8A901",
+    "#464937",
+    "#615DFD",
+    "#C70FF2",
+    "#6B6D5F",
+    "#D4EB8A",
+    "#9666FE",
+    "#6898A6",
+    "#99B835",
+    "#BFBFDF",
+    "#C5BA4A",
+    "#6B6D5F",
+    "#8181FB",
+    "#D159F4",
+    "#898A7F",
+    "#DDEEA4",
+    "#AA89FD",
+    "#87ACB6",
+    "#738A28",
+    "#8F8FA7",
+    "#897F16",
+    "#353729",
+    "#4A4ABB",
+    "#9425B5",
+    "#505247",
+    "#9FB06A",
+    "#7050BD",
+    "#4F717B",
+    "#4D5C1B",
+    "#606070",
+    "#5C540F",
+    "#23251C",
+    "#31317D",
+    "#641879",
+    "#363730",
+    "#6A7547",
+    "#4B367E",
+    "#344C52",
+    "#262E0D",
+    "#484854",
+    "#6AB801",
+    "#3D4937",
+    "#B15DFD",
+    "#F20FAA",
+    "#646D5F",
+    "#A3EB8A",
+    "#E266FE",
+    "#687AA6",
+    "#57B835",
+    "#CFBFDF",
+    "#91C54A",
+    "#646D5F",
+    "#BF81FB",
+    "#F459C9",
+    "#838A7F",
+    "#B7EEA4",
+    "#E589FD",
+    "#8794B6",
+    "#428A28",
+    "#9B8FA7",
+    "#588916",
+    "#2E3729",
+    "#824ABB",
+    "#B5258D",
+    "#4A5247",
+    "#7CB06A",
+    "#A750BD",
+    "#4F5B7B",
+    "#2C5C1B",
+    "#686070",
+    "#3C5C0F",
+    "#1E251C",
+    "#57317D",
+    "#79185D",
+    "#323730",
+    "#537547",
+    "#6F367E",
+    "#343D52",
+    "#152E0D",
+    "#4E4854",
+    "#0FB801",
+    "#37493A",
+    "#FD5DF9",
+    "#F20F39",
+    "#5F6D61",
+    "#8AEBA1",
+    "#FE66CE",
+    "#7568A6",
+    "#35B854",
+    "#DFBFDF",
+    "#54C54A",
+    "#5F6D61",
+    "#FB81FA",
+    "#F4597C",
+    "#7F8A80",
+    "#A4EEB5",
+    "#FD89DB",
+    "#9187B6",
+    "#288A3F",
+    "#A78FA7",
+    "#1F8916",
+    "#29372B",
+    "#BB4ABB",
+    "#B52544",
+    "#475249",
+    "#6AB07B",
+    "#BD509B",
+    "#594F7B",
+    "#1B5C2A",
+    "#706070",
+    "#155C0F",
+    "#1C251E",
+    "#7D317B",
+    "#79182D",
+    "#303731",
+    "#477552",
+    "#7E3668",
+    "#3B3452",
+    "#0D2E14",
+    "#544854",
+    "#01B84E",
+    "#374942",
+    "#FD5DA9",
+    "#F2560F",
+    "#5F6D67",
+    "#8AEBD1",
+    "#FE6682",
+    "#9468A6",
+    "#35B895",
+    "#DFBFCF",
+    "#4AC57D",
+    "#5F6D67",
+    "#FB81BD",
+    "#F48459",
+    "#7F8A85",
+    "#A4EEDA",
+    "#FD89A1",
+    "#A887B6",
+    "#288A6F",
+    "#A78F9B",
+    "#168946",
+    "#293732",
+    "#BB4A82",
+    "#B54C25",
+    "#47524E",
+    "#6AB09D",
+    "#BD5065",
+    "#6E4F7B",
+    "#1B5C4A",
+    "#706068",
+    "#0F5C2E",
+    "#1C2522",
+    "#7D3156",
+    "#793418",
+    "#303734",
+    "#477568",
+    "#7E3644",
+    "#493452",
+    "#0D2E25",
+    "#54484E"
+  ],
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "show": false,
+            "radius": 4
+          }
+        ],
+        "visualHeader": [
+          {
+            "transparency": 0,
+            "foreground": {
+              "solid": {
+                "color": "#1F2937"
+              }
+            }
+          }
+        ],
+        "visualTooltip": [
+          {
+            "titleFontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "valueFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 6,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "background": {
+              "solid": {
+                "color": "#1F2937"
+              }
+            }
+          }
+        ],
+        "filterCard": [
+          {
+            "$id": "Available",
+            "backgroundColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "transparency": 0,
+            "foregroundColor": {
+              "solid": {
+                "color": "#374151"
+              }
+            }
+          }
+        ],
+        "visualHeaderTooltip": [
+          {
+            "titleFontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "background": {
+              "solid": {
+                "color": "#1F2937"
+              }
+            }
+          }
+        ],
+        "outspacePane": [
+          {
+            "foregroundColor": {
+              "solid": {
+                "color": "#374151"
+              }
+            },
+            "checkboxAndApplyColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 7,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#F6F8FC"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "outspace": [
+          {
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "show": true
+          }
+        ],
+        "columnHeaders": [
+          {
+            "alignment": "Auto",
+            "autoSizeColumnWidth": true,
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontFamily": "Segoe (Bold)",
+            "outline": "None",
+            "fontSize": 9
+          }
+        ],
+        "divider": [
+          {
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 3,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "ignorePadding": true,
+            "show": true,
+            "style": "solid"
+          }
+        ],
+        "columnFormatting": [
+          {
+            "alignment": "Auto",
+            "styleHeader": true,
+            "styleTotal": true,
+            "styleValues": true,
+            "dataBars": {
+              "axisColor": {
+                "solid": {
+                  "color": {
+                    "expr": {
+                      "ThemeDataColor": {
+                        "ColorId": 0,
+                        "Percent": 0
+                      }
+                    }
+                  }
+                }
+              },
+              "hideText": false,
+              "negativeColor": {
+                "solid": {
+                  "color": "#fdae61"
+                }
+              },
+              "positiveColor": {
+                "solid": {
+                  "color": {
+                    "expr": {
+                      "ThemeDataColor": {
+                        "ColorId": 3,
+                        "Percent": 0
+                      }
+                    }
+                  }
+                }
+              },
+              "reverseDirection": true
+            }
+          }
+        ],
+        "total": [
+          {
+            "bold": true,
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontFamily": "Segoe (Bold)"
+          }
+        ],
+        "values": [
+          {
+            "backColorSecondary": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 6,
+                      "Percent": 0.6
+                    }
+                  }
+                }
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "backColorPrimary": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontFamily": "Segoe UI",
+            "fontColorPrimary": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 3,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontColorSecondary": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 3,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "grid": [
+          {
+            "gridHorizontal": false,
+            "gridVertical": true
+          }
+        ],
+        "visualTooltip": [
+          {
+            "background": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 7,
+                      "Percent": -0.5
+                    }
+                  }
+                }
+              }
+            },
+            "bold": true,
+            "fontFamily": "Segoe UI",
+            "titleFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "themedTitleFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 6,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "show": true
+          }
+        ]
+      }
+    },
+    "clusteredBarChart": {
+      "*": {
+        "visualTooltip": [
+          {
+            "show": true
+          }
+        ]
+      }
+    }
+  },
+  "icons": [
+    {
+      "description": "Home",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%231E3A8A\" fill=\"%231E3A8A\" stroke-width=\"0\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z\"></path></svg>"
+    },
+    {
+      "description": "Home",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%232563EB\" fill=\"%232563EB\" stroke-width=\"0\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z\"></path></svg>"
+    },
+    {
+      "description": "File Document",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%231E3A8A\" fill=\"%231E3A8A\" stroke-width=\"0\" version=\"1.1\" id=\"mdi-file-document\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M13,9H18.5L13,3.5V9M6,2H14L20,8V20A2,2 0 0,1 18,22H6C4.89,22 4,21.1 4,20V4C4,2.89 4.89,2 6,2M15,18V16H6V18H15M18,14V12H6V14H18Z\"></path></svg>"
+    },
+    {
+      "description": "File Document",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%232563EB\" fill=\"%232563EB\" stroke-width=\"0\" version=\"1.1\" id=\"mdi-file-document\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M13,9H18.5L13,3.5V9M6,2H14L20,8V20A2,2 0 0,1 18,22H6C4.89,22 4,21.1 4,20V4C4,2.89 4.89,2 6,2M15,18V16H6V18H15M18,14V12H6V14H18Z\"></path></svg>"
+    },
+    {
+      "description": "Presentation Play",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%231E3A8A\" fill=\"%231E3A8A\" stroke-width=\"0\" version=\"1.1\" id=\"mdi-presentation-play\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M2,3H10A2,2 0 0,1 12,1A2,2 0 0,1 14,3H22V5H21V16H15.25L17,22H15L13.25,16H10.75L9,22H7L8.75,16H3V5H2V3M5,5V14H19V5H5M11.85,11.85C11.76,11.94 11.64,12 11.5,12A0.5,0.5 0 0,1 11,11.5V7.5A0.5,0.5 0 0,1 11.5,7C11.64,7 11.76,7.06 11.85,7.15L13.25,8.54C13.57,8.86 13.89,9.18 13.89,9.5C13.89,9.82 13.57,10.14 13.25,10.46L11.85,11.85Z\"></path></svg>"
+    },
+    {
+      "description": "Presentation Play",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%232563EB\" fill=\"%232563EB\" stroke-width=\"0\" version=\"1.1\" id=\"mdi-presentation-play\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M2,3H10A2,2 0 0,1 12,1A2,2 0 0,1 14,3H22V5H21V16H15.25L17,22H15L13.25,16H10.75L9,22H7L8.75,16H3V5H2V3M5,5V14H19V5H5M11.85,11.85C11.76,11.94 11.64,12 11.5,12A0.5,0.5 0 0,1 11,11.5V7.5A0.5,0.5 0 0,1 11.5,7C11.64,7 11.76,7.06 11.85,7.15L13.25,8.54C13.57,8.86 13.89,9.18 13.89,9.5C13.89,9.82 13.57,10.14 13.25,10.46L11.85,11.85Z\"></path></svg>"
+    },
+    {
+      "description": "Question Circle",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%231E3A8A\" fill=\"%231E3A8A\" stroke-width=\"0\" viewBox=\"0 0 512 512\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zM262.655 90c-54.497 0-89.255 22.957-116.549 63.758-3.536 5.286-2.353 12.415 2.715 16.258l34.699 26.31c5.205 3.947 12.621 3.008 16.665-2.122 17.864-22.658 30.113-35.797 57.303-35.797 20.429 0 45.698 13.148 45.698 32.958 0 14.976-12.363 22.667-32.534 33.976C247.128 238.528 216 254.941 216 296v4c0 6.627 5.373 12 12 12h56c6.627 0 12-5.373 12-12v-1.333c0-28.462 83.186-29.647 83.186-106.667 0-58.002-60.165-102-116.531-102zM256 338c-25.365 0-46 20.635-46 46 0 25.364 20.635 46 46 46s46-20.636 46-46c0-25.365-20.635-46-46-46z\"></path></svg>"
+    },
+    {
+      "description": "Question Circle",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%232563EB\" fill=\"%232563EB\" stroke-width=\"0\" viewBox=\"0 0 512 512\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zM262.655 90c-54.497 0-89.255 22.957-116.549 63.758-3.536 5.286-2.353 12.415 2.715 16.258l34.699 26.31c5.205 3.947 12.621 3.008 16.665-2.122 17.864-22.658 30.113-35.797 57.303-35.797 20.429 0 45.698 13.148 45.698 32.958 0 14.976-12.363 22.667-32.534 33.976C247.128 238.528 216 254.941 216 296v4c0 6.627 5.373 12 12 12h56c6.627 0 12-5.373 12-12v-1.333c0-28.462 83.186-29.647 83.186-106.667 0-58.002-60.165-102-116.531-102zM256 338c-25.365 0-46 20.635-46 46 0 25.364 20.635 46 46 46s46-20.636 46-46c0-25.365-20.635-46-46-46z\"></path></svg>"
+    },
+    {
+      "description": "Info Circle",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%231E3A8A\" fill=\"%231E3A8A\" stroke-width=\"0\" viewBox=\"0 0 512 512\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z\"></path></svg>"
+    },
+    {
+      "description": "Info Circle",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%232563EB\" fill=\"%232563EB\" stroke-width=\"0\" viewBox=\"0 0 512 512\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z\"></path></svg>"
+    },
+    {
+      "description": "Shield Alert",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%231E3A8A\" fill=\"%231E3A8A\" stroke-width=\"0\" version=\"1.1\" id=\"mdi-shield-alert\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5M11,7H13V13H11M11,15H13V17H11\"></path></svg>"
+    },
+    {
+      "description": "Shield Alert",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%232563EB\" fill=\"%232563EB\" stroke-width=\"0\" version=\"1.1\" id=\"mdi-shield-alert\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5M11,7H13V13H11M11,15H13V17H11\"></path></svg>"
+    },
+    {
+      "description": "Menu",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%231E3A8A\" fill=\"%231E3A8A\" stroke-width=\"0\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z\"></path></svg>"
+    },
+    {
+      "description": "Menu",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%23ffffff\" fill=\"%23ffffff\" stroke-width=\"0\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z\"></path></svg>"
+    },
+    {
+      "description": "Menu",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%232563EB\" fill=\"%232563EB\" stroke-width=\"0\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z\"></path></svg>"
+    },
+    {
+      "description": "Filter Menu",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%231E3A8A\" fill=\"%231E3A8A\" stroke-width=\"0\" version=\"1.1\" id=\"mdi-filter-menu\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M11 11L16.76 3.62A1 1 0 0 0 16.59 2.22A1 1 0 0 0 16 2H2A1 1 0 0 0 1.38 2.22A1 1 0 0 0 1.21 3.62L7 11V16.87A1 1 0 0 0 7.29 17.7L9.29 19.7A1 1 0 0 0 10.7 19.7A1 1 0 0 0 11 18.87V11M13 16L18 21L23 16Z\"></path></svg>"
+    },
+    {
+      "description": "Filter Menu",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%23ffffff\" fill=\"%23ffffff\" stroke-width=\"0\" version=\"1.1\" id=\"mdi-filter-menu\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M11 11L16.76 3.62A1 1 0 0 0 16.59 2.22A1 1 0 0 0 16 2H2A1 1 0 0 0 1.38 2.22A1 1 0 0 0 1.21 3.62L7 11V16.87A1 1 0 0 0 7.29 17.7L9.29 19.7A1 1 0 0 0 10.7 19.7A1 1 0 0 0 11 18.87V11M13 16L18 21L23 16Z\"></path></svg>"
+    },
+    {
+      "description": "Filter Menu",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%232563EB\" fill=\"%232563EB\" stroke-width=\"0\" version=\"1.1\" id=\"mdi-filter-menu\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M11 11L16.76 3.62A1 1 0 0 0 16.59 2.22A1 1 0 0 0 16 2H2A1 1 0 0 0 1.38 2.22A1 1 0 0 0 1.21 3.62L7 11V16.87A1 1 0 0 0 7.29 17.7L9.29 19.7A1 1 0 0 0 10.7 19.7A1 1 0 0 0 11 18.87V11M13 16L18 21L23 16Z\"></path></svg>"
+    },
+    {
+      "description": "Restore",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%231E3A8A\" fill=\"%231E3A8A\" stroke-width=\"0\" version=\"1.1\" id=\"mdi-restore\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M13,3A9,9 0 0,0 4,12H1L4.89,15.89L4.96,16.03L9,12H6A7,7 0 0,1 13,5A7,7 0 0,1 20,12A7,7 0 0,1 13,19C11.07,19 9.32,18.21 8.06,16.94L6.64,18.36C8.27,20 10.5,21 13,21A9,9 0 0,0 22,12A9,9 0 0,0 13,3Z\"></path></svg>"
+    },
+    {
+      "description": "Restore",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%23ffffff\" fill=\"%23ffffff\" stroke-width=\"0\" version=\"1.1\" id=\"mdi-restore\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M13,3A9,9 0 0,0 4,12H1L4.89,15.89L4.96,16.03L9,12H6A7,7 0 0,1 13,5A7,7 0 0,1 20,12A7,7 0 0,1 13,19C11.07,19 9.32,18.21 8.06,16.94L6.64,18.36C8.27,20 10.5,21 13,21A9,9 0 0,0 22,12A9,9 0 0,0 13,3Z\"></path></svg>"
+    },
+    {
+      "description": "Restore",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%232563EB\" fill=\"%232563EB\" stroke-width=\"0\" version=\"1.1\" id=\"mdi-restore\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M13,3A9,9 0 0,0 4,12H1L4.89,15.89L4.96,16.03L9,12H6A7,7 0 0,1 13,5A7,7 0 0,1 20,12A7,7 0 0,1 13,19C11.07,19 9.32,18.21 8.06,16.94L6.64,18.36C8.27,20 10.5,21 13,21A9,9 0 0,0 22,12A9,9 0 0,0 13,3Z\"></path></svg>"
+    },
+    {
+      "description": "Star Border",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%23c4c7cc\" fill=\"%23c4c7cc\" stroke-width=\"0\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z\"></path></svg>"
+    },
+    {
+      "description": "Star Border",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%232563EB\" fill=\"%232563EB\" stroke-width=\"0\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z\"></path></svg>"
+    },
+    {
+      "description": "Comment Check Outline",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%23c4c7cc\" fill=\"%23c4c7cc\" stroke-width=\"0\" version=\"1.1\" id=\"mdi-comment-check-outline\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M9,22A1,1 0 0,1 8,21V18H4A2,2 0 0,1 2,16V4C2,2.89 2.9,2 4,2H20A2,2 0 0,1 22,4V16A2,2 0 0,1 20,18H13.9L10.2,21.71C10,21.9 9.75,22 9.5,22V22H9M10,16V19.08L13.08,16H20V4H4V16H10M16.5,8L11,13.5L7.5,10L8.91,8.59L11,10.67L15.09,6.59L16.5,8Z\"></path></svg>"
+    },
+    {
+      "description": "Comment Check Outline",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%232563EB\" fill=\"%232563EB\" stroke-width=\"0\" version=\"1.1\" id=\"mdi-comment-check-outline\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M9,22A1,1 0 0,1 8,21V18H4A2,2 0 0,1 2,16V4C2,2.89 2.9,2 4,2H20A2,2 0 0,1 22,4V16A2,2 0 0,1 20,18H13.9L10.2,21.71C10,21.9 9.75,22 9.5,22V22H9M10,16V19.08L13.08,16H20V4H4V16H10M16.5,8L11,13.5L7.5,10L8.91,8.59L11,10.67L15.09,6.59L16.5,8Z\"></path></svg>"
+    },
+    {
+      "description": "Reg Chart Bar",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%23ffffff\" fill=\"%23ffffff\" stroke-width=\"0\" viewBox=\"0 0 512 512\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M396.8 352h22.4c6.4 0 12.8-6.4 12.8-12.8V108.8c0-6.4-6.4-12.8-12.8-12.8h-22.4c-6.4 0-12.8 6.4-12.8 12.8v230.4c0 6.4 6.4 12.8 12.8 12.8zm-192 0h22.4c6.4 0 12.8-6.4 12.8-12.8V140.8c0-6.4-6.4-12.8-12.8-12.8h-22.4c-6.4 0-12.8 6.4-12.8 12.8v198.4c0 6.4 6.4 12.8 12.8 12.8zm96 0h22.4c6.4 0 12.8-6.4 12.8-12.8V204.8c0-6.4-6.4-12.8-12.8-12.8h-22.4c-6.4 0-12.8 6.4-12.8 12.8v134.4c0 6.4 6.4 12.8 12.8 12.8zM496 400H48V80c0-8.84-7.16-16-16-16H16C7.16 64 0 71.16 0 80v336c0 17.67 14.33 32 32 32h464c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16zm-387.2-48h22.4c6.4 0 12.8-6.4 12.8-12.8v-70.4c0-6.4-6.4-12.8-12.8-12.8h-22.4c-6.4 0-12.8 6.4-12.8 12.8v70.4c0 6.4 6.4 12.8 12.8 12.8z\"></path></svg>"
+    },
+    {
+      "description": "Pie Chart Outlined",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%23ffffff\" fill=\"%23ffffff\" stroke-width=\"0\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm1 2.07c3.61.45 6.48 3.33 6.93 6.93H13V4.07zM4 12c0-4.06 3.07-7.44 7-7.93v15.87c-3.93-.5-7-3.88-7-7.94zm9 7.93V13h6.93c-.45 3.61-3.32 6.48-6.93 6.93z\"></path></svg>"
+    },
+    {
+      "description": "Chart Bell Curve Cumulative",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%23ffffff\" fill=\"%23ffffff\" stroke-width=\"0\" version=\"1.1\" id=\"mdi-chart-bell-curve-cumulative\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M4 19V20H22V22H2V2H4V17C7 17 10 15 12.1 11.4C15.1 6.4 18.4 4 22 4V6C19.2 6 16.5 8.1 13.9 12.5C11.3 16.6 7.7 19 4 19Z\"></path></svg>"
+    },
+    {
+      "description": "Chart Donut",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%23ffffff\" fill=\"%23ffffff\" stroke-width=\"0\" version=\"1.1\" id=\"mdi-chart-donut\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M13,2.05V5.08C16.39,5.57 19,8.47 19,12C19,12.9 18.82,13.75 18.5,14.54L21.12,16.07C21.68,14.83 22,13.45 22,12C22,6.82 18.05,2.55 13,2.05M12,19A7,7 0 0,1 5,12C5,8.47 7.61,5.57 11,5.08V2.05C5.94,2.55 2,6.81 2,12A10,10 0 0,0 12,22C15.3,22 18.23,20.39 20.05,17.91L17.45,16.38C16.17,18 14.21,19 12,19Z\"></path></svg>"
+    },
+    {
+      "description": "Chart Line",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%23ffffff\" fill=\"%23ffffff\" stroke-width=\"0\" version=\"1.1\" id=\"mdi-chart-line\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M16,11.78L20.24,4.45L21.97,5.45L16.74,14.5L10.23,10.75L5.46,19H22V21H2V3H4V17.54L9.5,8L16,11.78Z\"></path></svg>"
+    },
+    {
+      "description": "File Chart Outline",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%23ffffff\" fill=\"%23ffffff\" stroke-width=\"0\" version=\"1.1\" id=\"mdi-file-chart-outline\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M14 2H6C4.9 2 4 2.9 4 4V20C4 21.1 4.9 22 6 22H18C19.1 22 20 21.1 20 20V8L14 2M18 20H6V4H13V9H18V20M9 13V19H7V13H9M15 15V19H17V15H15M11 11V19H13V11H11Z\"></path></svg>"
+    },
+    {
+      "description": "Chart Timeline Variant",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%23ffffff\" fill=\"%23ffffff\" stroke-width=\"0\" version=\"1.1\" id=\"mdi-chart-timeline-variant\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M3,14L3.5,14.07L8.07,9.5C7.89,8.85 8.06,8.11 8.59,7.59C9.37,6.8 10.63,6.8 11.41,7.59C11.94,8.11 12.11,8.85 11.93,9.5L14.5,12.07L15,12C15.18,12 15.35,12 15.5,12.07L19.07,8.5C19,8.35 19,8.18 19,8A2,2 0 0,1 21,6A2,2 0 0,1 23,8A2,2 0 0,1 21,10C20.82,10 20.65,10 20.5,9.93L16.93,13.5C17,13.65 17,13.82 17,14A2,2 0 0,1 15,16A2,2 0 0,1 13,14L13.07,13.5L10.5,10.93C10.18,11 9.82,11 9.5,10.93L4.93,15.5L5,16A2,2 0 0,1 3,18A2,2 0 0,1 1,16A2,2 0 0,1 3,14Z\"></path></svg>"
+    },
+    {
+      "description": "Chart Scatter Plot",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%23ffffff\" fill=\"%23ffffff\" stroke-width=\"0\" version=\"1.1\" id=\"mdi-chart-scatter-plot\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M2,2H4V20H22V22H2V2M9,10A3,3 0 0,1 12,13A3,3 0 0,1 9,16A3,3 0 0,1 6,13A3,3 0 0,1 9,10M13,2A3,3 0 0,1 16,5A3,3 0 0,1 13,8A3,3 0 0,1 10,5A3,3 0 0,1 13,2M18,12A3,3 0 0,1 21,15A3,3 0 0,1 18,18A3,3 0 0,1 15,15A3,3 0 0,1 18,12Z\"></path></svg>"
+    },
+    {
+      "description": "Chart Bell Curve",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%23ffffff\" fill=\"%23ffffff\" stroke-width=\"0\" version=\"1.1\" id=\"mdi-chart-bell-curve\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M9.96,11.31C10.82,8.1 11.5,6 13,6C14.5,6 15.18,8.1 16.04,11.31C17,14.92 18.1,19 22,19V17C19.8,17 19,14.54 17.97,10.8C17.08,7.46 16.15,4 13,4C9.85,4 8.92,7.46 8.03,10.8C7.03,14.54 6.2,17 4,17V2H2V22H22V20H4V19C7.9,19 9,14.92 9.96,11.31Z\"></path></svg>"
+    }
+  ],
+  "textClasses": {
+    "callout": {
+      "fontFace": "'Segoe UI Bold', wf_segoe-ui_bold, helvetica, arial, sans-serif",
+      "fontSize": 12,
+      "color": "#1E3A8A"
+    },
+    "title": {
+      "fontFace": "'Segoe UI Bold', wf_segoe-ui_bold, helvetica, arial, sans-serif",
+      "color": "#1E3A8A",
+      "fontSize": 9
+    },
+    "label": {
+      "color": "#374151",
+      "fontSize": 8,
+      "fontFace": "'Segoe UI', wf_segoe-ui_normal, helvetica, arial, sans-serif"
+    },
+    "header": {
+      "color": "#1E3A8A",
+      "fontFace": "'Segoe UI Bold', wf_segoe-ui_bold, helvetica, arial, sans-serif"
+    }
+  },
+  "good": "#17DDCC",
+  "bad": "#F46D43",
+  "neutral": "#E3DAC9",
+  "maximum": "#1E3A8A",
+  "minimum": "#DBEAFE",
+  "center": "#3B82F6",
+  "background": "#F3F4F6",
+  "backgroundLight": "#E5E7EB",
+  "backgroundNeutral": "#E5E7EB",
+  "foreground": "#111827",
+  "foregroundNeutralSecondary": "#6B7280",
+  "foregroundNeutralTertiary": "#2563EB"
+}

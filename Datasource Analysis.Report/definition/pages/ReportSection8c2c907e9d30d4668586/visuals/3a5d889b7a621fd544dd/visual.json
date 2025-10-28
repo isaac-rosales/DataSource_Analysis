@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.3.0/schema.json",
+  "name": "3a5d889b7a621fd544dd",
+  "position": {
+    "x": 0,
+    "y": 0,
+    "z": 0,
+    "height": 24.278706015241571,
+    "width": 182.07812996195429
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "© 2025 Derechos reservados",
+                    "textStyle": {
+                      "color": "#6b7280"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "right"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "parentGroupName": "de5d8be9aea2de95d0fe"
+}
