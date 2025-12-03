@@ -27,8 +27,9 @@
                 }
               },
               "queryRef": "INEGI DENUE.Clase_actividad",
-              "nativeQueryRef": "Clase_actividad",
-              "active": true
+              "nativeQueryRef": "Clase de Actividad",
+              "active": true,
+              "displayName": "Clase de Actividad"
             }
           ]
         }
