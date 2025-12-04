@@ -1,0 +1,188 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "ad412260376888bcd477",
+  "position": {
+    "x": 9.260450160771704,
+    "y": 125.53054662379421,
+    "z": 1,
+    "height": 594.72668810289383,
+    "width": 682.18649517684889,
+    "tabOrder": 1
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "INEGI DENUE"
+                    }
+                  },
+                  "Property": "Nombre"
+                }
+              },
+              "queryRef": "INEGI DENUE.Nombre",
+              "nativeQueryRef": "Nombre"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "INEGI DENUE"
+                    }
+                  },
+                  "Property": "Ubicacion"
+                }
+              },
+              "queryRef": "INEGI DENUE.Ubicacion",
+              "nativeQueryRef": "Ubicacion"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "INEGI DENUE"
+                    }
+                  },
+                  "Property": "Estrato"
+                }
+              },
+              "queryRef": "INEGI DENUE.Estrato",
+              "nativeQueryRef": "Estrato"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "245.75824325545435D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "INEGI DENUE.Nombre"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "282.3931271087276D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "INEGI DENUE.Ubicacion"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "136.78778992342103D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "INEGI DENUE.Estrato"
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 3,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "015cafed5760376a3d59",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "INEGI DENUE"
+              }
+            },
+            "Property": "Nombre"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "2ad79bc475c769a6c203",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "INEGI DENUE"
+              }
+            },
+            "Property": "Ubicacion"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "1626010169d62298cb3a",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "INEGI DENUE"
+              }
+            },
+            "Property": "Estrato"
+          }
+        },
+        "type": "Categorical"
+      }
+    ]
+  }
+}
