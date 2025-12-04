@@ -1,0 +1,203 @@
+table 'INEGI DENUE'
+	lineageTag: 32112e9b-6e58-44f1-a752-64df44a46cb4
+
+	column CLEE
+		dataType: string
+		lineageTag: ff9aa345-7a0b-48dc-b5bf-5cb3a7ff72ff
+		summarizeBy: none
+		sourceColumn: CLEE
+
+		annotation SummarizationSetBy = Automatic
+
+	column Id
+		dataType: int64
+		formatString: 0
+		lineageTag: 6b216527-5639-4d3f-888d-d3415a1e7675
+		summarizeBy: count
+		sourceColumn: Id
+
+		annotation SummarizationSetBy = Automatic
+
+	column Nombre
+		dataType: string
+		lineageTag: 009c5073-3e71-4d62-87fd-90421a98c69a
+		summarizeBy: none
+		sourceColumn: Nombre
+
+		annotation SummarizationSetBy = Automatic
+
+	column Razon_social
+		dataType: string
+		lineageTag: 3a2e6c7c-84e8-429b-83b0-c3af1e604ae6
+		summarizeBy: none
+		sourceColumn: Razon_social
+
+		annotation SummarizationSetBy = Automatic
+
+	column Clase_actividad
+		dataType: string
+		lineageTag: 98caf17a-1e65-4fa5-8f1d-1c3707f26e2e
+		summarizeBy: none
+		sourceColumn: Clase_actividad
+
+		annotation SummarizationSetBy = Automatic
+
+	column Estrato
+		dataType: string
+		lineageTag: 819ce9a9-0b03-4af7-9899-8549c886e650
+		summarizeBy: none
+		sourceColumn: Estrato
+
+		annotation SummarizationSetBy = Automatic
+
+	column Tipo_vialidad
+		dataType: string
+		lineageTag: 93726e53-027f-41ff-9699-f016dfec9bd6
+		summarizeBy: none
+		sourceColumn: Tipo_vialidad
+
+		annotation SummarizationSetBy = Automatic
+
+	column Calle
+		dataType: string
+		lineageTag: 26c2c31f-d404-4871-ab31-55a7ade55835
+		summarizeBy: none
+		sourceColumn: Calle
+
+		annotation SummarizationSetBy = Automatic
+
+	column Num_Exterior
+		dataType: int64
+		formatString: 0
+		lineageTag: f0dfc116-3549-411d-8e68-f7b1432c2d32
+		summarizeBy: sum
+		sourceColumn: Num_Exterior
+
+		annotation SummarizationSetBy = Automatic
+
+	column Num_Interior
+		dataType: int64
+		formatString: 0
+		lineageTag: fd6ee8fb-f055-45b9-851c-cbb188bc771d
+		summarizeBy: sum
+		sourceColumn: Num_Interior
+
+		annotation SummarizationSetBy = Automatic
+
+	column Colonia
+		dataType: string
+		lineageTag: 09fe9b54-370e-44c3-85b3-2bd3a6cc2671
+		summarizeBy: none
+		sourceColumn: Colonia
+
+		annotation SummarizationSetBy = Automatic
+
+	column CP
+		dataType: int64
+		formatString: 0
+		lineageTag: 5cd978b9-291b-4aa7-8911-715f06b47ad2
+		summarizeBy: sum
+		sourceColumn: CP
+
+		annotation SummarizationSetBy = Automatic
+
+	column Ubicacion
+		dataType: string
+		lineageTag: 3eb8aa2f-004b-4c07-a448-9973ad86a24c
+		summarizeBy: none
+		sourceColumn: Ubicacion
+
+		annotation SummarizationSetBy = Automatic
+
+	column Telefono
+		dataType: int64
+		formatString: 0
+		lineageTag: 07a9748b-2160-4736-947b-df19d406e608
+		summarizeBy: sum
+		sourceColumn: Telefono
+
+		annotation SummarizationSetBy = Automatic
+
+	column Correo_e
+		dataType: string
+		lineageTag: 342dd667-5fc0-4352-9ce8-9a491f7ee730
+		summarizeBy: none
+		sourceColumn: Correo_e
+
+		annotation SummarizationSetBy = Automatic
+
+	column Sitio_internet
+		dataType: string
+		lineageTag: dd7da587-9638-40b9-ad1e-eb956b6c759f
+		summarizeBy: none
+		sourceColumn: Sitio_internet
+
+		annotation SummarizationSetBy = Automatic
+
+	column Tipo
+		dataType: string
+		lineageTag: 65a6b2c5-1592-476e-b10b-75ee14f5f19e
+		summarizeBy: none
+		sourceColumn: Tipo
+
+		annotation SummarizationSetBy = Automatic
+
+	column Longitud
+		dataType: double
+		lineageTag: 69041353-cbb9-4108-8c1c-447f5c16cc80
+		summarizeBy: sum
+		sourceColumn: Longitud
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Latitud
+		dataType: double
+		lineageTag: b9c3079a-90bb-4a17-a92b-495e7df92b50
+		summarizeBy: sum
+		sourceColumn: Latitud
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column tipo_corredor_industrial
+		dataType: string
+		lineageTag: 3fb8e1cb-8398-4456-9087-3938c07b6257
+		summarizeBy: none
+		sourceColumn: tipo_corredor_industrial
+
+		annotation SummarizationSetBy = Automatic
+
+	column nom_corredor_industrial
+		dataType: string
+		lineageTag: 357cdca2-233b-46e5-9d06-1679a47b880f
+		summarizeBy: none
+		sourceColumn: nom_corredor_industrial
+
+		annotation SummarizationSetBy = Automatic
+
+	column numero_local
+		dataType: string
+		lineageTag: ee9993c0-2c6d-4004-8977-d0871fcb1c13
+		summarizeBy: none
+		sourceColumn: numero_local
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'INEGI DENUE' = m
+		mode: import
+		source =
+				let
+				    Source = Json.Document(Web.Contents("https://www.inegi.org.mx/app/api/denue/v1/consulta/BuscarEntidad/OXXO/08/1/1000/7646490d-d12a-44d0-ad5d-03c174e32d5d")),
+				    #"Converted to Table" = Table.FromList(Source, Splitter.SplitByNothing(), null, null, ExtraValues.Error),
+				    #"Expanded Column1" = Table.ExpandRecordColumn(#"Converted to Table", "Column1", {"CLEE", "Id", "Nombre", "Razon_social", "Clase_actividad", "Estrato", "Tipo_vialidad", "Calle", "Num_Exterior", "Num_Interior", "Colonia", "CP", "Ubicacion", "Telefono", "Correo_e", "Sitio_internet", "Tipo", "Longitud", "Latitud", "tipo_corredor_industrial", "nom_corredor_industrial", "numero_local"}, {"CLEE", "Id", "Nombre", "Razon_social", "Clase_actividad", "Estrato", "Tipo_vialidad", "Calle", "Num_Exterior", "Num_Interior", "Colonia", "CP", "Ubicacion", "Telefono", "Correo_e", "Sitio_internet", "Tipo", "Longitud", "Latitud", "tipo_corredor_industrial", "nom_corredor_industrial", "numero_local"}),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Expanded Column1",{{"CLEE", type text}, {"Id", Int64.Type}, {"Nombre", type text}, {"Razon_social", type text}, {"Clase_actividad", type text}, {"Estrato", type text}, {"Tipo_vialidad", type text}, {"Calle", type text}, {"Num_Exterior", Int64.Type}, {"Num_Interior", Int64.Type}, {"Colonia", type text}, {"CP", Int64.Type}, {"Ubicacion", type text}, {"Telefono", Int64.Type}, {"Correo_e", type text}, {"Sitio_internet", type text}, {"Tipo", type text}, {"Longitud", type number}, {"Latitud", type number}, {"tipo_corredor_industrial", type any}, {"nom_corredor_industrial", type any}, {"numero_local", type any}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+
